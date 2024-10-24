@@ -1,0 +1,17 @@
+---
+import MainInfo from './components/MainInfo.astro'
+import Navbar from './components/Navbar.astro'
+import SocialButtons from './components/SocialButtons.astro'
+
+---
+
+
+    <header class='bg-coverPhoto w-full bg-cover bg-center h-80 md:h-[500px] xl:h-[600px] '>
+      <section class='w-full flex flex-col justify-between h-full md:pt-2 bg-gradient-to-br from-transparent to-sky-600/70'>
+        <Navbar />
+        <div class="flex justify-between px-4 lg:px-8 py-4 items-end w-full md:h-1/2 ">
+          <SocialButtons />
+          <MainInfo />
+        </div>
+      </section>
+    </header>

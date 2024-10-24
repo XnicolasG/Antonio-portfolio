@@ -1,0 +1,31 @@
+---
+import Button from "../../../components/Button.astro";
+import Email from "../../../components/icons/Email.astro";
+import LinkedIn from "../../../components/icons/LinkedIn.astro";
+
+const links = [
+    {
+        text: "Antonio García",
+        link: "https://www.linkedin.com/in/antonio-garcia-garcia-177027151/",
+    },
+    {
+        text: "antoniogarcia_g",
+        link: "mailto:antoniogarcia_g@hotmail.com",
+    },
+];
+---
+
+<article class="flex flex-col lg:flex-row gap-y-2 gap-x-4">
+    {
+        links.map((li) => (
+            <Button class="bg-slate-50/50 hover:scale-105 border border-sky-200" href={li.link}>
+                {li.text === "Antonio García" ? (
+                    <LinkedIn class="size-4 md:size-6 text-blue-500" />
+                ) : (
+                    <Email class="size-4 md:size-6 text-red-500/80" />
+                )}
+                <span class="text-xs md:text-lg">{li.text}</span>
+            </Button>
+        ))
+    }
+</article>
