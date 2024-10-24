@@ -8,7 +8,10 @@ export default {
 			},
 			fontFamily:{
 				Belgiano : ['Belgiano', 'sans-serif']
-			}
+			},
+			textGradient: {
+				'deg-45': '45deg',
+			  },
 		},
 	},
 	plugins: [],
