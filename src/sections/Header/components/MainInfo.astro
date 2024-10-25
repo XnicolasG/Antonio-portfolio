@@ -1,11 +1,29 @@
 ---
 import { YearsExperience } from "./YearsExperience";
-
-
 ---
 
-<article class=" lg:px-8 md:py-4 flex flex-col items-end gap-2 md:gap-4">
-    <h1 class="text-lg md:text-5xl lg:text-6xl mix-blend-plus-darker text-slate-50 drop-shadow-xl font-semibold">ANTONIO GARCIA GARCIA</h1>
-    <h2 class=' md:text-3xl drop-shadow-xl text-amber-200 '>GERENTE DE CUENTA SENIOR</h2>
-    <YearsExperience client:visible />
+<article class="lg:px-8 md:py-4 flex flex-col items-end gap-2 md:gap-4">
+    <h1
+        class="text-lg md:text-5xl lg:text-6xl mix-blend-plus-darker text-slate-50 drop-shadow-xl font-semibold"
+    >
+        ANTONIO GARCIA GARCIA
+    </h1>
+    <h2 class="md:text-3xl drop-shadow-xl text-amber-200">
+        GERENTE DE CUENTA SENIOR
+    </h2>
+    <section class="flex gap-x-2 justify-center items-center">
+        <div class="flex drop-shadow-lg">
+            <span
+                class="text-3xl font-semibold md:text-4xl lg:text-6xl text-amber-500"
+                >+</span
+            >
+            <YearsExperience client:load />
+        </div>
+        <div
+            class="drop-shadow-xl text-sm md:text-lg lg:text-xl font-semibold bg-gradient-to-br from-white to-blue-100/80 text-transparent inline-block bg-clip-text"
+        >
+            <p>Años</p>
+            <p>Experiencia</p>
+        </div>
+    </section>
 </article>

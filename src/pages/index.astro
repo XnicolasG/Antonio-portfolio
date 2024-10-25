@@ -1,11 +1,61 @@
 ---
 import Layout from "../layout/Layout.astro";
-
+import Competencias from "../components/Index/Competencias.astro";
+import Fabricantes from "../components/Index/Fabricantes.astro";
 
 ---
+
 <Layout
-title="Antonio García García - Gerente de cuenta"
-description="Gerente Senior de cuenta especializado en BPO"
+    title="Antonio García García - Gerente de cuenta"
+    description="Gerente Senior de cuenta especializado en BPO"
 >
-    <h1>Antonio García</h1>
+    <main class="page">
+        <section
+            class="page_section grid grid-cols-2 bg-gradient-to-b from-transparent to-blue-500 rounded-lg shadow-md"
+        >
+            <article
+                class="text-center flex flex-col gap-2 rounded-se-3xl bg-gradient-to-br from-blue-700 to-blue-500 rounded-lg p-4"
+            >
+                <Competencias />
+               <Fabricantes />
+            </article>
+            <article
+                class="text-lg space-y-5 text-pretty bg-[#e0e0e0] p-4 rounded-es-3xl"
+            >
+                <h3 class="text-2xl drop-shadow-md text-center text-blue-500">
+                    Mi Experiencia y Enfoque
+                </h3>
+
+                <p>
+                    Tengo una <span class="highlight">sólida trayectoria</span> en
+                    la
+                    <span class="highlight"
+                        >gestión comercial y estratégica</span
+                    >, con un enfoque especializado en proyectos del <span
+                        class="highlight"
+                        >sector gubernamental y tecnológico</span
+                    >. He trabajado en el diseño, ejecución y seguimiento de
+                    iniciativas clave de IT, ciberseguridad y transformación
+                    digital para entidades del Estado. Mi experiencia abarca
+                    desde la apertura de nuevos mercados hasta la gestión de
+                    licitaciones públicas y contratos, asegurando el
+                    cumplimiento de las normativas y ofreciendo soluciones que
+                    optimizan los recursos y los resultados.
+                </p>
+                <p>
+                    Me he destacado por identificar oportunidades de negocio,
+                    estructurar propuestas estratégicas y liderar equipos en la
+                    entrega de proyectos complejos, siempre dentro de los plazos
+                    y presupuestos acordados. Mi habilidad para <span
+                        class="highlight">gestionar relaciones</span
+                    > con partners y clientes ha sido fundamental para posicionar
+                    portafolios y generar alianzas comerciales que impulsan el
+                    <span class="highlight">crecimiento empresarial.</span>
+                    Estoy comprometido con ofrecer consultoría de alto impacto y
+                    <span class="highlight">generar valor</span> en cada proyecto
+                    que gestiono.
+                </p>
+            </article>
+        </section>
+    </main>
 </Layout>

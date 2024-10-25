@@ -1,0 +1,56 @@
+---
+import Cisco from "../icons/Cisco.astro";
+import Dell from "../icons/Dell.astro";
+import Fortinet from "../icons/Fortinet.astro";
+import Hp from "../icons/Hp.astro";
+import Huawei from "../icons/Huawei.astro";
+import Ibm from "../icons/Ibm.astro";
+
+const fabricantes = [
+    {
+        name: "Huawei",
+    },
+    {
+        name: "HP",
+    },
+    {
+        name: "DELL",
+    },
+    {
+        name: "Cisco",
+    },
+    {
+        name: "Fortinet",
+    },
+    {
+        name: "IBM",
+    },
+];
+---
+
+<p>
+    <h3 class="text-2xl text-slate-50">Conocimientos Técnico de Fabricantes</h3>
+    <ul class="flex justify-around px-6">
+        {
+            fabricantes.map((item) => (
+                <li class="flex flex-col w-24 p-1 items-center text-slate-50 backdrop-blur-md bg-white/20 ring-2 ring-white/80 rounded-lg px-2">
+                    {item.name === "Huawei" ? (
+                        <Huawei class="text-red-400" />
+                    ) : item.name === "HP" ? (
+                        <Hp class="text-sky-300"/>
+                    ) : item.name === "DELL" ? (
+                        <Dell class="text-sky-300" />
+                    ) : item.name === "Cisco" ? (
+                        <Cisco class="text-sky-300" />
+                    ) : item.name === "Fortinet" ? (
+                        <Fortinet class="text-red-500" />
+                    ) : item.name === "IBM" ? (
+                        <Ibm class="text-gray-800" />
+                    )
+                : ''}
+                    <p>{item.name}</p>
+                </li>
+            ))
+        }
+    </ul>
+</p>

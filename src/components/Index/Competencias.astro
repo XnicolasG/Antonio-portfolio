@@ -1,0 +1,47 @@
+---
+import Award from "../icons/Award.astro";
+import Brain from "../icons/Brain.astro";
+import ChartUp from "../icons/ChartUp.astro";
+import Search from "../icons/Search.astro";
+
+const habilidades = [
+    {
+        title: "Capacidad de análisis",
+    },
+    {
+        title: "Pensamiento estratégico",
+    },
+    {
+        title: "Orientación a resultados",
+    },
+    {
+        title: "Toma de decisiones",
+    },
+];
+---
+<p>
+    <h3 class="text-2xl text-slate-50">Competencias Clave</h3>
+    <ul class="my-4 px-12 flex gap-4 justify-center flex-wrap">
+        {
+            habilidades.map((item) => (
+                <li class="flex justify-between items-center p-2 w-52 text-center rounded bg-slate-50 shadow-lg">
+                    <span class="bg-blue-500 p-1.5 rounded-full">
+                        {item.title ===
+                        "Pensamiento estratégico" ? (
+                            <Brain />
+                        ) : item.title ===
+                          "Orientación a resultados" ? (
+                            <ChartUp />
+                        ) : item.title ===
+                          "Toma de decisiones" ? (
+                            <Award />
+                        ) : (
+                            <Search />
+                        )}
+                    </span>
+                    <p> {item.title} </p>
+                </li>
+            ))
+        }
+    </ul>
+</p>
