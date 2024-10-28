@@ -1,0 +1,33 @@
+---
+const { key, fecha, empresa, cargo, responsabilidades, logros } = Astro.props;
+const isLeft = key % 2 === 0;
+---
+
+<section
+  class={`timeline-item flex items-center relative my-8 ${isLeft ? "justify-end" : "justify-start"}`}
+>
+  <article
+    class={`timeline-content bg-gray-100 p-4 rounded-lg border-2 border-slate-100 w-1/2 ${isLeft ? "-mr-8" : "-ml-8"} text-pretty`}
+  >
+    <h3 class="text-lg font-semibold text-blue-700">{empresa}</h3>
+    <div class=" flex justify-between text-blue-700/60">
+      <p class="">
+        {cargo}
+      </p>
+      <p>
+        {fecha}
+      </p>
+    </div>
+    <hr/>
+    <ul class="mt-2">
+      {responsabilidades.map((resp) => <li>- {resp.descripcion}</li>)}
+    </ul>
+    <ul class="mt-2 font-semibold">
+      {logros.map((logro) => <li>✔ {logro.descripcion}</li>)}
+    </ul>
+  </article>
+  <div
+    class="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2 z-10 border-4 border-white"
+  >
+  </div>
+</section>

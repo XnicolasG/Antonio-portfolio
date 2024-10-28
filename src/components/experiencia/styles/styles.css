@@ -1,0 +1,10 @@
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: #0066cc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
