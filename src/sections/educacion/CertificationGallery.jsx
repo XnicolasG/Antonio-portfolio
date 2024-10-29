@@ -20,7 +20,7 @@ const CertificationGallery = () => {
         <section className="relative w-full flex items-center overflow-hidden">
           <button 
             onClick={handlePrev} 
-            className="absolute left-0 p-2 text-white bg-blue-500 rounded-l-md z-10"
+            className="absolute flex justify-center items-center left-0 p-2 text-white bg-blue-500 size-8 rounded-full z-10"
           >
             &#9664;
           </button>
@@ -55,7 +55,7 @@ const CertificationGallery = () => {
     
           <button 
             onClick={handleNext} 
-            className="absolute right-0 p-2 text-white bg-blue-500 rounded-r-md z-10"
+            className="absolute flex justify-center items-center right-0 p-2 text-white bg-blue-500 size-8 rounded-full z-10"
           >
             &#9654;
           </button>
