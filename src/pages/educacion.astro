@@ -1,0 +1,55 @@
+---
+import Layout from "../layout/Layout.astro";
+import  CertificationGallery  from "../sections/educacion/CertificationGallery";
+
+const estudios = [
+    {
+        titulo: "Ingenieria de sistemas",
+        tipo: "Técnico profesional",
+        institución: "Fundación universitaria CIDCA",
+    },
+    {
+        titulo: "Gerencia de ventas",
+        tipo: "Diplomado",
+        institución: "Universidad La Sabana",
+    },
+];
+---
+
+<Layout
+    title="Antonio García - Educación, Estudios"
+    description="Técnico profesional en ingenieria de sistemas, cuento con diplomados, y certificaciones que junto a mi larga experiencia en el sector IT, me han formado para llevar a cabo grandes logros en mi carrera como gerente de cuenta."
+>
+    <main class="page">
+        <section
+            class="page_section flex flex-col md:grid md:grid-cols-2 bg-transparent md:bg-gradient-to-b from-transparent to-blue-500 rounded-lg shadow-md"
+        >
+            <article
+                class="text-center flex flex-col gap-2 md:rounded-ee-3xl bg-[#e0e0e0] md:rounded-lg p-4"
+            >
+                <h3 class="text-2xl text-center text-blue-700">Estudios</h3>
+                <ul class="flex flex-col justify-center gap-6">
+                    {
+                        estudios.map((est) => (
+                            <li class="flex flex-col justify-start items-start">
+                                <h3 class="text-2xl">{est.titulo}</h3>
+                                <div class="flex flex-col items-start text-gray-600">
+                                    <p>{est.tipo}</p>
+                                    <p>{est.institución}</p>
+                                </div>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </article>
+            <article
+                class="text-lg space-y-5 text-pretty text-white bg-gradient-to-bl from-blue-700 to-blue-500 p-4 md:rounded-ss-3xl rounded-lg"
+            >
+                <h3 class="text-2xl text-center text-slate-100">
+                    Cursos y certificaciones
+                </h3>
+                <CertificationGallery client:visible />
+            </article>
+        </section>
+    </main>
+</Layout>
