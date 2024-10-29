@@ -4,7 +4,7 @@ const isLeft = key % 2 === 0;
 ---
 
 <section
-  class={`timeline-item flex items-center relative my-8 ${isLeft ? "justify-end" : "justify-start"}`}
+  class={`timeline-item hidden md:flex items-center relative my-8 ${isLeft ? "justify-end" : "justify-start"}`}
 >
   <article
     class={`timeline-content bg-gray-100 p-4 rounded-lg border-2 border-slate-100 w-1/2 ${isLeft ? "-mr-8" : "-ml-8"} text-pretty`}
@@ -20,10 +20,12 @@ const isLeft = key % 2 === 0;
     </div>
     <hr/>
     <ul class="mt-2">
+      <h4 class="font-semibold underline ">Responsabilidades</h4>
       {responsabilidades.map((resp) => <li>- {resp.descripcion}</li>)}
     </ul>
-    <ul class="mt-2 font-semibold">
-      {logros.map((logro) => <li>✔ {logro.descripcion}</li>)}
+    <ul class="mt-2 font-semibold ">
+      <h4 class="underline">Logros</h4>
+      {logros.map((logro) => <li> <span class="text-emerald-500">✔</span> {logro.descripcion}</li>)}
     </ul>
   </article>
   <div

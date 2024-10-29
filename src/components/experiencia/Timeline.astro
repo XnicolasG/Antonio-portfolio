@@ -1,11 +1,13 @@
 ---
 import { ExperienciaData } from "../../data/Experiencia";
+import Cards from "./Cards.astro";
 import TimelineItem from "./TimelineItem.astro";
 import './styles/styles.css'
 ---
 
-<div class="timeline relative w-4/5 mx-auto">
+<div class="timeline relative w-full md:w-4/5 mx-auto">
     {ExperienciaData.map((item, index) => (
+        <Cards key={index} {...item} />
         <TimelineItem key={index} {...item} />
     ))}
   </div>

@@ -2,7 +2,7 @@ export const ExperienciaData = [
     {
         empresa: "SONDA DE COLOMBIA S.A.",
         cargo: "Gerente de Cuenta Senior",
-        fecha: "10/2018 - 09-2024",
+        fecha: "10/2018 - 09/2024",
         responsabilidades: [
             { descripcion: "Gerenciamiento de cuentas, desarrollando gestión comercial en entidades del Sector Gobierno" },
             { descripcion: "Posicionamiento y consultoría en proyectos de Tecnología Informática" },
@@ -17,7 +17,7 @@ export const ExperienciaData = [
     {
         empresa: "FACTURA ELECTRONICA OnLINE",
         cargo: "Gerente Comercial",
-        fecha: "04-17 / 10/18",
+        fecha: "04/2017 - 10/2018",
         responsabilidades: [
             { descripcion: "Emprendimiento propio, encargado del posicionamiento, estructuración de la unidad comercial y gestión directa abriendo nuevo mercado para el producto de Factura Electrónica" },
             { descripcion: "Presentación de las soluciones, realización de conferencias a Sectores Empresariales diferentes, presentación y seguimiento de propuestas a clientes" }
@@ -30,7 +30,7 @@ export const ExperienciaData = [
     {
         empresa: "CONSULTING DATA SYSTEMS CDS SAS",
         cargo: "Consultor Free Lance – Director Comercial Factura Electrónica",
-        fecha: "01-18 / 10/18",
+        fecha: "01/2018 - 10/2018",
         responsabilidades: [
             { descripcion: "Diseño de una estrategia de mercado para ofrecer Servicios de Factura Electrónica, realización de un plan de trabajo y una estrategia para el desarrollo de Software para conectar soluciones de Software con la plataforma de factura electrónica" },
             { descripcion: "Coordinación de grupo comercial en las regionales y Bogotá para posicionar las soluciones con los clientes, encargado y responsable de la meta de ventas de la unidad" }
@@ -43,7 +43,7 @@ export const ExperienciaData = [
     {
         empresa: "DESCA COLOMBIA S.A.",
         cargo: "Account Manager",
-        fecha: "10-15 / 03/17",
+        fecha: "10/2015 - 03/2017",
         responsabilidades: [
             { descripcion: "Encargado de realizar las labores de apertura de unidad de gobierno dentro de la compañía para poder licitar ante el estado, diagnóstico y análisis de necesidades, análisis y validación de contratación y certificación de experiencia para aval de registro único de proponentes" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes corporativos, apertura de nuevos mercados, negociación, generación de estrategias, evaluación y seguimiento" }
@@ -56,7 +56,7 @@ export const ExperienciaData = [
     {
         empresa: "COLVISTA SAS.",
         cargo: "Consultor Master de Negocios",
-        fecha: "11-12 / 10/15",
+        fecha: "11/2012 - 10/2015",
         responsabilidades: [
             { descripcion: "Encargado de consultoría de negocios, gestión comercial para clientes del sector gobierno" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes, calificación de oportunidades" }
@@ -68,7 +68,7 @@ export const ExperienciaData = [
     {
         empresa: "VERYTEL S.A.",
         cargo: "Gerente de Cuenta Sector Gobierno",
-        fecha: "07-09 / 09/11",
+        fecha: "07/2009 - 09/2011",
         responsabilidades: [
             { descripcion: "Encargado de consultoría de negocios, gestión comercial para clientes del sector gobierno" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes, calificación de oportunidades" }
@@ -81,7 +81,7 @@ export const ExperienciaData = [
     {
         empresa: "COMPUFACIL S.A.",
         cargo: "Gerente Unidad de Infraestructura",
-        fecha: "03-07 / 12/08",
+        fecha: "03-2007 / 12-2008",
         responsabilidades: [
             { descripcion: "Gerenciamiento de la Unidad de Infraestructura de la compañía, encargado del Grupo comercial y Preventa, desarrollo de estrategias y gestión comercial encaminada al posicionamiento y asesoría en la Implementación y venta de proyectos de Tecnología Informática" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes, manejo de partners y fabricantes para integrar soluciones" }
@@ -94,7 +94,7 @@ export const ExperienciaData = [
     {
         empresa: "COLVISTA LTDA.",
         cargo: "Consultor de Negocios",
-        fecha: "06-03 / 03/07",
+        fecha: "06-2003 / 03-2007",
         responsabilidades: [
             { descripcion: "Atención de cuentas especiales de la empresa, gerenciamiento y desarrollo de negocios en nuevos clientes del Sector Gobierno principalmente" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes, manejo de nuevos proyectos para la compañía" },
@@ -108,7 +108,7 @@ export const ExperienciaData = [
     {
         empresa: "INFORMATICA DATAPOINT DE COLOMBIA LTDA.",
         cargo: "Gerente de Cuenta Sector Gobierno",
-        fecha: "06-96 / 11/02",
+        fecha: "06-1996 / 11-2002",
         responsabilidades: [
             { descripcion: "Atención de cuentas especiales de la empresa, gerenciamiento y desarrollo de negocios en nuevos clientes del Sector Gobierno principalmente" },
             { descripcion: "Presentación de licitaciones, posicionamiento de portafolio de la compañía, visitas a clientes, manejo de nuevos proyectos para la compañía" }
