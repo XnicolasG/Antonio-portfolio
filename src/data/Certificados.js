@@ -1,52 +1,97 @@
 export const certificados = [
     {
-        titulo: "Venta Relacional",
-        institucion: "La Enepotencia",
-        imagen: "/img/certificados/negociacion-michigan.png"
-    },
-    {
-        titulo: "Transformación Digital",
-        institucion: "Univ. Virginia",
-        imagen: "/img/certificados/negociacion-michigan.png"
-    },
-    {
-        titulo: "El Camino de la Transformación Digital",
-        institucion: "Udemy",
-        imagen: "/img/certificados/negociacion-michigan.png"
-    },
-    {
-        titulo: "Vender más y mejor en Secop II",
-        institucion: "Cámara Comercio de Bogotá",
-        imagen: "/img/certificados/negociacion-michigan.png"
-    },
-    {
         titulo: "Diplomado de Negociación Exitosa",
-        institucion: "Universidad Michigan",
+        institucion: "University of Michigan",
         imagen: "/img/certificados/negociacion-michigan.png"
     },
     {
-        titulo: "Ciberseguridad",
-        institucion: "Sonda Academy",
-        imagen: "/img/certificados/negociacion-michigan.png"
+        titulo: "Architecture story & business Fundamentals",
+        institucion: "Cisco - sales academy ",
+        imagen: "/img/certificados/architecture-cisco.png"
     },
     {
-        titulo: "Data Center",
+        titulo: "Administración de SAP Basis",
         institucion: "Sonda Academy",
-        imagen: "/img/certificados/negociacion-michigan.png"
+        imagen: "/img/certificados/sap-basis-sonda.png"
     },
     {
-        titulo: "Consultoría Transformacional",
+        titulo: "Backup as a Service",
         institucion: "Sonda Academy",
-        imagen: "/img/certificados/negociacion-michigan.png"
+        imagen: "/img/certificados/backup-sonda.png"
     },
     {
-        titulo: "Cloud",
+        titulo: "Cloud Privado",
         institucion: "Sonda Academy",
-        imagen: "/img/certificados/negociacion-michigan.png"
+        imagen: "/img/certificados/cloud-sonda.png"
     },
     {
-        titulo: "Analítica",
+        titulo: "Cloud para SAP HANA",
         institucion: "Sonda Academy",
-        imagen: "/img/certificados/negociacion-michigan.png"
-    }
+        imagen: "/img/certificados/cloudHana-sonda.png"
+    },
+    {
+        titulo: "Base de Datacenter",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/datacenter-sonda.png"
+    },
+    {
+        titulo: "Gestión de vulnerabilidades",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/gestion-sonda.png"
+    },
+    {
+        titulo: "Hardening",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/hardening-sonda.png"
+    },
+    {
+        titulo: "Security Operation Center",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/SOC-Sonda.png"
+    },
+    {
+        titulo: "Seguridad perimentral",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/seguridadPerimetral-sonda.png"
+    },
+    {
+        titulo: "Smart Safety",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/smart-sonda.png"
+    },
+    {
+        titulo: "Respuesta ante incidentes",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/respuestaIncidentes-sonda.png"
+    },
+    {
+        titulo: "Consultoria adopción Cloud",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/consultoria-sonda.png"
+    },
+    {
+        titulo: "Consultoria de seguridad CIS",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/CIS-sonda.png"
+    },
+    {
+        titulo: "Consultoria transformacional",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/transformacional-sonda.png"
+    },
+    {
+        titulo: "Introducción a Digital Experience",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/digitalExperience-sonda.png"
+    },
+    {
+        titulo: "Reporting Analytics",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/reportingExperience-sonda.png"
+    },
+    {
+        titulo: "Servicio de migración",
+        institucion: "Sonda Academy",
+        imagen: "/img/certificados/migracion-sonda.png"
+    },
 ];

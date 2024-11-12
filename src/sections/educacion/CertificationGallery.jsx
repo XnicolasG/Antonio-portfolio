@@ -29,15 +29,15 @@ const CertificationGallery = () => {
             <ul
               className="flex transition-transform duration-300"
               style={{
-                transform: `translateX(-${currentIndex * 12.5}%)`
+                transform: `translateX(-${currentIndex * 14.5}%)`
               }}
             >
               {certificados.map((cert, index) => (
                 <li
                   key={index}
-                  className="flex flex-col items-center shadow-lg p-2 w-52 h-52 flex-shrink-0 rounded bg-slate-100 text-gray-600 mr-4"
+                  className="flex flex-col items-center shadow-lg p-2 w-52 h-60 flex-shrink-0 rounded bg-slate-100 text-gray-600 mr-4"
                 >
-                  <div className="w-36">
+                  <div className="w-44">
                     <img 
                       className="w-full object-cover"
                       src={cert.imagen} 
